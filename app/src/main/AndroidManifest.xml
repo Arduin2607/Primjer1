@@ -1,0 +1,51 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hr.android.prvi">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="hr.android.MainAktivnost"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="hr.android.prvi.LinearLayoutHorizOrient"
+            android:label="@string/title_activity_linear_layout_horiz_orient" />
+        <activity
+            android:name="hr.android.prvi.LinearLayoutVertOrient"
+            android:label="@string/title_activity_linear_layout_vert_orient" />
+        <activity
+            android:name="hr.android.prvi.LinearLayoutUgnjezdjeni"
+            android:label="@string/title_activity_linear_layout_ugnjezdjeni" />
+        <activity
+            android:name="hr.android.prvi.GridLayout"
+            android:label="@string/title_activity_grid_layout" />
+        <activity
+            android:name="hr.android.prvi.RelativeLayout"
+            android:label="@string/title_activity_relative_layout" />
+        <activity
+            android:name="hr.android.prvi.EditText"
+            android:label="@string/title_activity_edit_text" />
+        <activity
+            android:name="hr.android.prvi.TextView"
+            android:label="@string/title_activity_text_view" />
+        <activity
+            android:name="hr.android.prvi.Buttons"
+            android:label="@string/title_activity_buttons" />
+        <activity
+            android:name="hr.android.prvi.ImageView"
+            android:label="@string/title_activity_imageview" />
+        <activity
+            android:name="hr.android.prvi.ImageButton"
+            android:label="@string/title_activity_imagebuttons" />
+    </application>
+
+</manifest>

@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/gumbic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gumb vulgaris domesticus" />
+
+    <Switch
+        android:layout_width="388dp"
+        android:layout_height="wrap_content"
+        android:text="Switch gumb:"
+        android:checked="false" />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:textOff="Upali me!"
+        android:textOn="Ugasi me!" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Checkbox prvi"
+        android:checked="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Checkbox drugi"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Checkbox treci"
+        android:checked="false" />
+
+    <RadioGroup
+        android:id="@+id/radioGrupa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radioPrvi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Prvi" />
+
+        <RadioButton
+            android:id="@+id/radioDrugi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Drugi" />
+
+        <RadioButton
+            android:id="@+id/radioTreci"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Treći" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonZaKlikanje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="klikMetoda"
+        android:text="Ja zovem metodu" />
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Primjer1</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_zivotni_ciklus">Životni ciklus</string>
+    <string name="title_activity_linear_layout_horiz_orient">Layout - LinearHorizOrient</string>
+    <string name="title_activity_linear_layout_vert_orient">Layout - LinearVertOrient</string>
+    <string name="title_activity_linear_layout_ugnjezdjeni">Layout - LinearUgnjezdjeni</string>
+    <string name="title_activity_grid_layout">Layout - Grid</string>
+    <string name="title_activity_relative_layout">Layout - Relative</string>
+    <string name="title_activity_edit_text">EditText</string>
+    <string name="title_activity_text_view">TextView</string>
+    <string name="title_activity_buttons">Buttons</string>
+    <string name="content_desc">Opis sadržaja</string>
+    <string name="title_activity_imageview">ImageView</string>
+    <string name="title_activity_imagebuttons">ImageButtons</string>
+</resources>
